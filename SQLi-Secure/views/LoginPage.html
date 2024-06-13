@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div>
+      <h1>User Login</h1>
+      <br>
+      <form action="/" method="POST">
+        <label for='user-name'>
+          USERNAME: 
+        </label>
+        <input id='user-name' type='text' name='username' placeholder='Enter username here...' />
+        <br>
+        <br>
+        <label for='password'>
+          PASSWORD: 
+        </label>
+        <input id='password' type="password" name='password' placeholder='Enter password here...' />
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="LOGIN" />
+        <br>
+        <br>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1>New User</h1>
+      <br>
+      <form action="/new" method="POST">
+        <label for='user-name'>
+          USERNAME: 
+        </label>
+        <input id='user-name' type='text' name='username' placeholder='Enter username here...' />
+        <br>
+        <br>
+        <label for='password'>
+          PASSWORD: 
+        </label>
+        <input id='password' type="password" name='password' placeholder='Enter password here...' />
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="CREATE" />
+        <br>
+        <br>
+      </form>
+    </div>
+  </body>
+</html>
